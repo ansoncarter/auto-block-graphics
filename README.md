@@ -2,6 +2,7 @@
 RANDOM BLOCK GRAPHICS GENERATOR WITH EXAMPLE FILES
 
 these python/numpy notebooks create randomly generated block art.  the code generates a random size 'grid', randomly selects a color palette, randomly selects colors within the palette and assigns blocks within the grid to the colors.  the algorithm does NOT 'overlap' or 'overwrite' parts of the grid previously assigned colors so it tends to build larger blocks and fill in the available space with smaller blocks leading to some interesting patterns.
+i used a bash script to run the second notebook 10000 times and created a library of wonderful block art.
 
 90.art.square.ipnyb      jupyter notebook that generates jpg within notebook
 
